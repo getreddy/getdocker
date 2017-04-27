@@ -24,5 +24,5 @@ Note: get the '<tokenID>' from masternode by running below command on Master nod
 
 ### Using docker REST calls using powershell :
 
-![ScreenShot]https://github.com/getreddy/getdocker/blob/master/dockerEngineAPI/DockerServiceAPIScreenshot.png
+![ScreenShot](https://github.com/getreddy/getdocker/blob/master/dockerEngineAPI/DockerServiceAPIScreenshot.png)
 
