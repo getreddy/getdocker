@@ -23,6 +23,10 @@ Note: get the '<tokenID>' from masternode by running below command on Master nod
 -----
 
 ### Using docker REST calls using powershell :
+For more information on other API's, refer https://docs.docker.com/engine/api/v1.26/
 
 ![ScreenShot](https://github.com/getreddy/getdocker/blob/master/dockerEngineAPI/DockerServiceAPIScreenshot.png)
 
+### Using docker REST calls using browser REST client:
+
+- Create a service which will launch 2 containers 
