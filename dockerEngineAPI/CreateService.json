@@ -1,0 +1,44 @@
+{
+  "Name": "ping11",
+  "TaskTemplate": {
+    "ContainerSpec": {
+      "Image": "microsoft/windowsservercore",
+      "Args":[
+        "ping",
+        "-t",
+        "localhost"
+        ]
+      ,
+      "Mounts": [
+        
+      ],
+      "DNSConfig": {
+        
+      }
+    },
+    
+    "Placement": {},
+    "Resources": {
+      "Limits": {
+        "MemoryBytes": 104857600
+      },
+      "Reservations": {}
+    },
+    "RestartPolicy": {
+      "Condition": "on-failure",
+      "Delay": 10000000000,
+      "MaxAttempts": 10
+    }
+  },
+  "Mode": {
+    "Replicated": {
+      "Replicas": 1
+    }
+  },
+  "EndpointSpec": {
+    "Spec": {}
+  },
+  "Labels": {
+    "foo": "bar"
+  }
+}
