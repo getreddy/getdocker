@@ -32,6 +32,6 @@ For more information on other API's, refer https://docs.docker.com/engine/api/v1
 Install "Advanced Rest Client" for chrome browser. 
 
 - Create a service which will launch 2 containers 
-(Post Operation) Enter this URL : http://localhost:2375/v1.26/services/create  
-Paste contents of this attached file SampleCreateDockerService.json in "Rawpayload"  and click Send. Status "201" is successfully created.
-This operation will trigger container to run on one of the worker node. 
+Markup : * (Post Operation) Enter this URL : http://localhost:2375/v1.26/services/create  
+* Paste contents of this attached file SampleCreateDockerService.json in "Rawpayload"  and click Send. Status "201" is successfully created.
+* This operation will trigger container to run on one of the worker node. 
