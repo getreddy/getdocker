@@ -1,4 +1,5 @@
 Download windowsservercore image using below command:
+
 docker pull microsoft/windowsservercore 
 
 git clone https://github.com/getreddy/getdocker.git
@@ -20,12 +21,17 @@ Build Docker image:
 docker build -t microsoft/windowsservercore:latest -f Dockerfile .
 
 Run container (as daemon -d) after Image build:
+
 docker run -d microsoft/windowsservercore C:\Tomcat9\bin\catalina.bat run
 
 Verify the container running 
+
 docker ps 
 
 Access tomcat page:
+
 docker inspect <ContainerID> 
+
 // This will show network IP used by container. Copy paste that IP and use below URL:
+
 http://<IP>:8080 
