@@ -4,7 +4,7 @@ docker pull microsoft/windowsservercore
 
 `git clone https://github.com/getreddy/getdocker.git`
 
-To run tomcat, we need to install JDK and JRE path set. 
+To run tomcat, it requires JDK to be installed along with setting path for JAVA_HOME and JRE_HOME. 
 
 `cd getdocker/dockerWin2016Tomcat`
 
