@@ -19,4 +19,6 @@ To make use of specific port as mentioned above i.e. "localhost:2375", you need 
 Note: get the '<tokenID>' from masternode by running below command on Master node:
 
 `docker swarm join-token worker`
-===
+
+-----
+
