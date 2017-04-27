@@ -6,7 +6,7 @@ docker pull microsoft/windowsservercore
 
 To run tomcat, we need to install JDK and JRE path set. 
 
-cd getdocker/dockerWin2016Tomcat
+`cd getdocker/dockerWin2016Tomcat`
 
 Download JRE from http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html 
 (choose Windows x64)
@@ -18,20 +18,20 @@ And extract it as new folder “Tomcat9” under directory getdocker/dockerWin20
 Note: “Tomcat9” folder should be at same location where Dockerfile exists. 
 
 Build Docker image:
-docker build -t microsoft/windowsservercore:latest -f Dockerfile .
+`docker build -t microsoft/windowsservercore:latest -f Dockerfile . `
 
 Run container (as daemon -d) after Image build:
 
-docker run -d microsoft/windowsservercore C:\Tomcat9\bin\catalina.bat run
+`docker run -d microsoft/windowsservercore C:\Tomcat9\bin\catalina.bat run`
 
 Verify the container running 
 
-docker ps 
+`docker ps `
 
 Access tomcat page:
 
-docker inspect <ContainerID> 
+`docker inspect <ContainerID> `
 
 // This will show network IP used by container. Copy paste that IP and use below URL:
 
-http://<IP>:8080 
+`http://<IP>:8080`
