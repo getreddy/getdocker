@@ -6,7 +6,8 @@ e.g get the services either by command 'Invoke-WebRequest -usebasicparsing http:
 Docker for Windows uses a named pipe npipe:////./pipe/docker_engine to access the REST API. 
 To make use of specific port as mentioned above i.e. "localhost:2375", you need to register docker daemon using localhost:2375 and named pipe. Refer [docker daemon registration](https://github.com/getreddy/getdocker/blob/master/dockerEngineAPI/dockerDaemonRegistration.ps1)
 
-##Build a swarm cluster
+## Build a swarm cluster
+
 **Master node** - windows 2016 server and Docker installed. Run below command on master node:
 'docker swarm init --advertise-addr=<HOSTIPADDRESS> --listen-addr <HOSTIPADDRESS>:2377'
 
