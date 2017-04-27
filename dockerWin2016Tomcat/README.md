@@ -15,7 +15,7 @@ To run tomcat, it requires JDK to be installed along with setting path for JAVA_
 Download [OracleJRE](http://www.oracle.com/technetwork/java/javase/downloads/server-jre8-downloads-2133154.html) 
 (choose Windows x64)
 
-Note: Don't extract it. 
+Note: Don't extract it. For more information on how to set JDK/JRE , refer @StefanScherer [Java8](https://github.com/StefanScherer/dockerfiles-windows/tree/master/java/oracle/java-8)
 
 Download [Tomcat](http://mirrors.advancedhosters.com/apache/tomcat/tomcat-9/v9.0.0.M20/bin/apache-tomcat-9.0.0.M20-windows-x64.zip) 
 and extract it as new folder “Tomcat9” under directory getdocker/dockerWin2016Tomcat/  
