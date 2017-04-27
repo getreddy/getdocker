@@ -8,11 +8,11 @@ To make use of specific port as mentioned above i.e. "localhost:2375", you need 
 
 ### Build a swarm cluster
 
-**Master node** - windows 2016 server and Docker installed (along with image pulled 'docker pull microsoft/windowsservercore') . Run below command on master node:
+**Master node** - windows 2016 server and Docker installed (along with image pulled `docker pull microsoft/windowsservercore`) . Run below command on master node:
 
 `docker swarm init --advertise-addr=<HOSTIPADDRESS> --listen-addr <HOSTIPADDRESS>:2377`
 
-**Worker nodes** - windows 2016 and Docker installed ((along with image pulled 'docker pull microsoft/windowsservercore'). Run below command on worker nodes:
+**Worker nodes** - windows 2016 and Docker installed ((along with image pulled `docker pull microsoft/windowsservercore`). Run below command on worker nodes:
 
 `docker swarm join  --token <tokenID> <MastNodeIP>:2377`
 
