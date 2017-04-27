@@ -40,3 +40,5 @@ Install "Advanced Rest Client" for chrome browser.
 Verify this service creation using other REST calls (either using REST client or powershell): 
 
 ![ScreenShot](https://github.com/getreddy/getdocker/blob/master/dockerEngineAPI/VerifyDockerCerateServiceScreenshot.png)
+
+This way you can invoke other REST API's. 
