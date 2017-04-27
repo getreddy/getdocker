@@ -2,7 +2,7 @@ Download windowsservercore image using below command:
 
 docker pull microsoft/windowsservercore 
 
-git clone https://github.com/getreddy/getdocker.git
+`git clone https://github.com/getreddy/getdocker.git`
 
 To run tomcat, we need to install JDK and JRE path set. 
 
