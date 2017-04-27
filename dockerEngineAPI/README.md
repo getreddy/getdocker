@@ -9,13 +9,10 @@ To make use of specific port as mentioned above i.e. "localhost:2375", you need 
 ### Build a swarm cluster
 
 **Master node** - windows 2016 server and Docker installed. Run below command on master node:
-
 `docker swarm init --advertise-addr=<HOSTIPADDRESS> --listen-addr <HOSTIPADDRESS>:2377`
 
 **Worker nodes** - windows 2016 and Docker installed. Run below command on worker nodes:
-
 `docker swarm join  --token <tokenID> <MastNodeIP>:2377`
 
-Note: get the token ID from masternode by running below command:
-
+Note: get the '<tokenID>' from masternode by running below command on Master node:
 `docker swarm join-token worker`
