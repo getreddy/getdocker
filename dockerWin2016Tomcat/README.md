@@ -4,7 +4,7 @@ docker pull microsoft/windowsservercore
 
 `git clone https://github.com/getreddy/getdocker.git`
 
-To run tomcat, it requires JDK to be installed along with setting path for JAVA_HOME and JRE_HOME. 
+To run tomcat, it requires JDK to be installed along with setting path for JAVA_HOME and JRE_HOME (taken care by Dockerfile). 
 
 `cd getdocker/dockerWin2016Tomcat`
 
@@ -32,6 +32,6 @@ Access tomcat page:
 
 `docker inspect <ContainerID> `
 
-// This will show network IP used by container. Copy paste that IP and use below URL:
+// This will show network IP used by container. Copy paste that IP and use below URL on host machine:
 
 `http://<IP>:8080`
