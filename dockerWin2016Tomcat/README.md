@@ -1,4 +1,4 @@
-Download windowsservercore image using below command:
+Download **windowsservercore** image using below command:
 
 docker pull microsoft/windowsservercore 
 
@@ -28,10 +28,10 @@ Verify the container running
 
 `docker ps `
 
-Access tomcat page:
+Access tomcat index page:
 
 `docker inspect <ContainerID> `
 
-// This will show network IP used by container. Copy paste that IP and use below URL on host machine:
+// This will show **network IP** used by container. Copy paste that IP and use below URL on host machine:
 
 `http://<IP>:8080`
